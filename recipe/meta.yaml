@@ -1,5 +1,5 @@
 {% set name = "napatrackmater" %}
-{% set version = "5.4.8" %}
+{% set version = "5.4.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napatrackmater-{{ version }}.tar.gz
-  sha256: be9e863a493e7dafb6a6cb504e496c6123045f693e676ff87eedc4dd8d6c278d
+  sha256: cdf3fa879184b8a4e714a2cb6fe77f9c36d46e2a0a6d1d18d179b4ec118b38c0
 
 build:
   entry_points:
